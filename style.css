@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(137, 175, 175);
+}
+h1{
+
+    color: rgb(93, 22, 22);
+    font-family: 'Teddy Bear',sans-serif;
+    font-size: 3.5rem;
+
+}
+h2{
+    color:rgb(68, 12, 119)
+}
+a{
+    color: rgb(95, 29, 5);
+}
+.big_size{
+    width: 500px;
+}
+.small_size{
+    width: 250px;
+}
+img{
+    margin-left: 50px;
+}
+@font-face {
+	font-family: 'Teddy Bear';
+	src: url('fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+ul{
+    list-style-type: square;
+}
+.content{
+    max-width: 1500px;
+    margin: auоto;
+}
